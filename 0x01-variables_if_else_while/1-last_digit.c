@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* print the last digit of the number stored in the variable n.*/
+/* main-print the last digit of the number stored in the variable n.*/
 int main(void)
 {
 int n;
