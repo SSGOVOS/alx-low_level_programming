@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 int main(void)
 {
     int n;
+    int last_digit;
 
-    srand(time(0));
+    srand(time(NULL)); // fixed srand() call
+
     n = rand() - RAND_MAX / 2;
-	
-    int last_digit = abs(n) % 10;
-	
+
+    last_digit = abs(n) % 10;
+
     printf("Last digit of %d is ", n);
     if (last_digit > 5)
     {
@@ -28,3 +29,4 @@ int main(void)
 
     return (0);
 }
+
