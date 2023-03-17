@@ -7,7 +7,7 @@ int main(void)
     int n;
     int last_digit;
 
-    srand(time(NULL)); // fixed srand() call
+    srand(time(NULL)); /* fixed srand() call */
 
     n = rand() - RAND_MAX / 2;
 
