@@ -1,31 +1,23 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * program prints all single digit numbers of base 10 starting from 0
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-int i, j;
+int a;
 
-for (i = 0; i < 10; i++)
+for (a = 0; a < 10; a++)
 {
-for (j = i; j < 10; j++) 
-{
-putchar(i + '0');
-putchar(',');
-putchar(' ');
-putchar(j + '0');
-
-if (i != 9 || j != 9)
+putchar(a + '0');
+if (a < 9)
 {
 putchar(',');
 putchar(' ');
 }
 }
-}
-
 putchar('\n');
-return 0;
+return (0);
 }
-
