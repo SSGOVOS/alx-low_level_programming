@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ *main-program entry point.
+ *
+ *Return:0 if no error, non-zero value if error.
+ */
 int main(void)
 {
 char c;
@@ -18,7 +22,7 @@ putchar(c);
 
 putchar('\n');
 
-return 0;
+return (0);
 }
 
 
