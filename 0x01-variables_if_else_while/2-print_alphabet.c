@@ -1,15 +1,19 @@
 #include <stdio.h>
-
+/**
+ *main-program entry point.
+ *
+ *Return:0 if no error, non-zero value if error.
+ */
 int main(void)
 {
-    char c;
+char c;
 
-    for (c = 'a'; c <= 'z'; ++c)
-    {
-        putchar(c);
-    }
+for (c = 'a'; c <= 'z'; ++c)
+{
+putchar(c);
+}
 
-    putchar('\n');
+putchar('\n');
 
-    return 0;
+return 0;
 }
