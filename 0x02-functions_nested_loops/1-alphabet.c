@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main-program entry point.
- *
+ *Prints the alphabet in lowercase letters.
  *Return:0 if no error, non-zero value if error.
  */
 void print_alphabet(void)
