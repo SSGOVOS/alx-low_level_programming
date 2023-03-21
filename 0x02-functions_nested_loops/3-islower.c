@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _islower - checks if input alphabet(in this example
  * letter c).
