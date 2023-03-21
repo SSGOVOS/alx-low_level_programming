@@ -4,7 +4,7 @@
  *
  *Return:0 if no error, non-zero value if error.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char letter = 'a';
 for (letter = 'a'; letter <= 'z'; ++letter)
