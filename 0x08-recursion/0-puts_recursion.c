@@ -1,6 +1,10 @@
 #include <main.h>
-
-void print_with_newline(char *s) {
-    printf("%s\n", s);
+/**
+ * _puts_recursion - print a string
+ * @s:string
+ * Return:void
+ */
+void _puts_recursion(char *s)
+{
+	putchar("%s\n", s);
 }
-
