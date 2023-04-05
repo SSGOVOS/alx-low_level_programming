@@ -1,10 +1,12 @@
 #include "main.h"
 /**
-*wildcmp - compares two strings and returns 1 if they can be considered identical
-*@s1:first string to compare
-*@s2:second string to compare(can contain wildcard character *)
-*Return:1 if the strings can be considered identical, otherwise return 0.
-*/
+ * str_checker - check if two strings are identical.
+ * @s1: string_1 base address.
+ * @s2: string_2 base address.
+ * @i: left index.
+ * @j: special index. (joker)
+ * Return: 1 if s is palindrome, 0 otherwise.
+ */
 int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0' && *s2 == '\0')
